@@ -36,4 +36,5 @@ registerButton.addEventListener("click", () => {
     document.getElementById("about-btn").style.display = "none";
     document.getElementById("footer").style.display = "none";
     document.getElementById("quote1").style.display = "none";
+    document.getElementById("github-btn").style.display = "none";
 });
