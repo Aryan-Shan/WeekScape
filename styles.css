@@ -114,8 +114,8 @@ header {
 
 }
 #about-btn:hover {
-    border: none;
     background-color: pink;
+    border: 2px solid pink;
     color: black;
     transition: 300ms ease-in-out;
 }
@@ -171,4 +171,29 @@ a{
 }
 .square.last-week {
     background-color: red;
+}
+#github-btn {
+    position: absolute;
+    display: block;
+    width: 102px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-color: white;
+    border: 2px solid transparent;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+#github-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
